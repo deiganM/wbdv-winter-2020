@@ -49,6 +49,8 @@ recipe.source = 'https://www.cooksillustrated.com/recipes/7079-spanish-style-toa
 console.log(recipe);
 
 // For later: Let's define a method (an object name/value pair where the value is a function) to customize the base recipe with a dash of something
-const dashOf = function(something) {
+recipie.customTitle = function(something) {
   return `with a dash of ${something}`;
 }
+
+console.log(recipie.customTitle('Durt')) 
